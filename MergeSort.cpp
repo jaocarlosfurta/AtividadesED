@@ -67,6 +67,6 @@ int main() {
 
   mergeSort(arr, 0, size - 1);
 
-  printf("Sorted array: \n");
+  printf("Vetor Ordenado: \n");
   printArray(arr, size);
 }
