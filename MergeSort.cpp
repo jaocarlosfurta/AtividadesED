@@ -55,7 +55,7 @@ void mergeSort(int arr[], int l, int r) {
 
 void printArray(int arr[], int size) {
   for (int i = 0; i < size; i++)
-    printf("%d ", arr[i]);
+    printf("  [%d] ", arr[i]);
   printf("\n");
 }
 
@@ -63,10 +63,13 @@ int main() {
   int arr[] = {6, 5, 12, 10, 9, 1};
   int size = sizeof(arr) / sizeof(arr[0]);
 
+  printf("Vetor Desordenado: ");
   printArray(arr, size);
+
+  printf("\n");
 
   mergeSort(arr, 0, size - 1);
 
-  printf("Vetor Ordenado: \n");
+  printf("Vetor Ordenado: ");
   printArray(arr, size);
 }
