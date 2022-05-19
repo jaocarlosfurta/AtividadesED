@@ -1,2 +1,0 @@
-# AtividadesED
-Estrutura de Dados
